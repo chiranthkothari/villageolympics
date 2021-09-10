@@ -1,6 +1,6 @@
 import "./App.css";
 import Homepage from "./Pages/Homepage";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Nav } from "./Components/Homepage/Navbar";
 import SportsPage from "./Components/Sports/Sports";
 
@@ -10,8 +10,14 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/sports" component={SportsPage}></Route>
-          <Route path="/" component={Homepage}></Route>
+          <Route
+            path={process.env.PUBLIC_URL + "/sports"}
+            component={SportsPage}
+          ></Route>
+          <Route
+            path={process.env.PUBLIC_URL + "/"}
+            component={Homepage}
+          ></Route>
         </Switch>
       </div>
     </Router>
