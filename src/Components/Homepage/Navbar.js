@@ -10,8 +10,8 @@ export const Nav = () => {
         <div class="flex items-center">
           <Link
             to="/"
-            aria-label="Company"
-            title="Company"
+            aria-label="Village Olympics"
+            title="Village Olympics"
             class="inline-flex items-center mr-8"
           >
             <svg
@@ -126,8 +126,8 @@ export const Nav = () => {
               <div class="p-5 bg-white border rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
                   <div>
-                    <a
-                      href="/"
+                    <Link
+                      to="/"
                       aria-label="Company"
                       title="Company"
                       class="inline-flex items-center"
@@ -148,9 +148,9 @@ export const Nav = () => {
                         <rect x="14" y="11" width="7" height="12" />
                       </svg>
                       <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
+                        Village Olympics
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <button
@@ -171,14 +171,15 @@ export const Nav = () => {
                 <nav>
                   <ul class="space-y-4">
                     <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/sports"
+                        onClick={() => setIsMenuOpen(false)}
                         aria-label="Our product"
                         title="Our product"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Product
-                      </a>
+                        Sports
+                      </Link>
                     </li>
                     <li>
                       <a

@@ -1,16 +1,16 @@
 const sportsData = [
   {
-    title: "3X3 Basketball",
+    title: "3X3-basketball",
     icon: "/images/sports/3x3-basketball.svg",
     information: {},
   },
   {
-    title: "acrobatic gymnastics",
+    title: "acrobatic-gymnastics",
     icon: "/images/sports/acrobatic-gymnastics.svg",
     information: {},
   },
   {
-    title: "alpine skiing",
+    title: "alpine-skiing",
     icon: "/images/sports/alpine-skiing.svg",
     information: {},
   },
@@ -20,7 +20,7 @@ const sportsData = [
     information: {},
   },
   {
-    title: "artistic gymnastics",
+    title: "artistic-gymnastics",
     icon: "/images/sports/artistic-gymnastics.svg",
     information: {},
   },
