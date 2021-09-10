@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/villageolympics/static/css/main.41b21db6.chunk.css",
-    "main.js": "/villageolympics/static/js/main.cf4ceb4d.chunk.js",
-    "main.js.map": "/villageolympics/static/js/main.cf4ceb4d.chunk.js.map",
+    "main.js": "/villageolympics/static/js/main.a2bcbe3a.chunk.js",
+    "main.js.map": "/villageolympics/static/js/main.a2bcbe3a.chunk.js.map",
     "runtime-main.js": "/villageolympics/static/js/runtime-main.b27c56cd.js",
     "runtime-main.js.map": "/villageolympics/static/js/runtime-main.b27c56cd.js.map",
     "static/js/2.07ad992d.chunk.js": "/villageolympics/static/js/2.07ad992d.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b27c56cd.js",
     "static/js/2.07ad992d.chunk.js",
     "static/css/main.41b21db6.chunk.css",
-    "static/js/main.cf4ceb4d.chunk.js"
+    "static/js/main.a2bcbe3a.chunk.js"
   ]
 }
