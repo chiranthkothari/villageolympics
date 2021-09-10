@@ -6,7 +6,7 @@ import SportsPage from "./Components/Sports/Sports";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Nav />
         <Switch>
