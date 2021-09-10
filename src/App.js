@@ -10,8 +10,7 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/villageolympics/sports" component={SportsPage}></Route>
-          <Route path="/villageolympics" component={Homepage}></Route>
+          <Route path="/sports" component={SportsPage}></Route>
           <Route path="/" component={Homepage}></Route>
         </Switch>
       </div>

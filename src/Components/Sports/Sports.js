@@ -31,7 +31,7 @@ function SportsPage() {
             return (
               <div className="text-center">
                 <div className="flex items-center justify-center w-20 h-20 mx-auto mb-3 rounded-full sm:w-28 sm:h-28">
-                  <img src={"/villageolympics" + sport.icon} />
+                  <img src={sport.icon} />
                 </div>
                 <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
                   {sport.title.replaceAll("-", " ")}

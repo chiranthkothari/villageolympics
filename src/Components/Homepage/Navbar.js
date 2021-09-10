@@ -46,7 +46,7 @@ export const Nav = () => {
             </li>
             <li>
               <Link
-                to="/villageolympics/sports"
+                to="/sports"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
