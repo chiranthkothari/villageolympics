@@ -1,12 +1,12 @@
 import "./App.css";
 import Homepage from "./Pages/Homepage";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { Nav } from "./Components/Homepage/Navbar";
 import SportsPage from "./Components/Sports/Sports";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className="App">
         <Nav />
         <Switch>
